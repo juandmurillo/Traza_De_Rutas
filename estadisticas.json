@@ -1,0 +1,238 @@
+{
+    "saltos_por_continente": {
+        "South America": 27,
+        "North America": 126,
+        "Oceania": 18,
+        "Europe": 45,
+        "Asia": 16,
+        "Africa": 46
+    },
+    "tiempo_respuesta_por_continente": {
+        "South America": 7.246913580246913,
+        "North America": 34.48412698412698,
+        "Oceania": 14.555555555555555,
+        "Europe": 31.674074074074074,
+        "Asia": 11.291666666666666,
+        "Africa": 26.057971014492754
+    },
+    "puntos_muertos_por_continente": {
+        "North America": 3,
+        "South America": 8,
+        "Asia": 4,
+        "Africa": 16,
+        "Oceania": 12
+    },
+    "max_saltos": {
+        "saltos": 16,
+        "registro": "AF_SudAfrica_Amz"
+    },
+    "min_saltos": {
+        "saltos": 3,
+        "registro": "SA_SaoPaulo_Amz"
+    },
+    "max_tiempo_respuesta": {
+        "tiempo": 117.0,
+        "registro": "OC_Singapur_Amz"
+    },
+    "min_tiempo_respuesta": {
+        "tiempo": 1.2,
+        "registro": "SA_SaoPaulo_Pin"
+    },
+    "puntos_muertos": [
+        {
+            "registro": "Local_Amz",
+            "hop": 3,
+            "ip": "10.166.10.206"
+        },
+        {
+            "registro": "Local_Amz",
+            "hop": 4,
+            "ip": "10.166.10.205"
+        },
+        {
+            "registro": "Local_Ig",
+            "hop": 2,
+            "ip": "10.20.30.113"
+        },
+        {
+            "registro": "Local_Pin",
+            "hop": 2,
+            "ip": "10.20.30.113"
+        },
+        {
+            "registro": "NA_Seattle_Amz",
+            "hop": 2,
+            "ip": "10.20.30.113"
+        },
+        {
+            "registro": "NA_Seattle_Ig",
+            "hop": 2,
+            "ip": "10.20.30.113"
+        },
+        {
+            "registro": "NA_Seattle_Pin",
+            "hop": 2,
+            "ip": "10.20.30.113"
+        },
+        {
+            "registro": "SA_BuenosAires_Amz",
+            "hop": 2,
+            "ip": "10.255.15.1"
+        },
+        {
+            "registro": "SA_BuenosAires_Amz",
+            "hop": 4,
+            "ip": "10.246.33.6"
+        },
+        {
+            "registro": "SA_BuenosAires_Amz",
+            "hop": 5,
+            "ip": "10.246.1.70"
+        },
+        {
+            "registro": "SA_BuenosAires_Ig",
+            "hop": 2,
+            "ip": "10.255.15.1"
+        },
+        {
+            "registro": "OC_Singapur_Amz",
+            "hop": 2,
+            "ip": "10.133.2.80"
+        },
+        {
+            "registro": "OC_Singapur_Amz",
+            "hop": 3,
+            "ip": "10.75.0.8"
+        },
+        {
+            "registro": "OC_Singapur_Amz",
+            "hop": 4,
+            "ip": "10.75.248.14"
+        },
+        {
+            "registro": "OC_Singapur_Amz",
+            "hop": 6,
+            "ip": "10.200.0.219"
+        },
+        {
+            "registro": "OC_Singapur_Ig",
+            "hop": 2,
+            "ip": "10.133.2.80"
+        },
+        {
+            "registro": "OC_Singapur_Ig",
+            "hop": 3,
+            "ip": "10.75.0.46"
+        },
+        {
+            "registro": "OC_Singapur_Ig",
+            "hop": 4,
+            "ip": "10.75.248.14"
+        },
+        {
+            "registro": "OC_Singapur_Ig",
+            "hop": 6,
+            "ip": "10.200.0.196"
+        },
+        {
+            "registro": "OC_Singapur_Pin",
+            "hop": 2,
+            "ip": "10.133.2.80"
+        },
+        {
+            "registro": "OC_Singapur_Pin",
+            "hop": 3,
+            "ip": "10.75.0.48"
+        },
+        {
+            "registro": "OC_Singapur_Pin",
+            "hop": 4,
+            "ip": "10.75.248.16"
+        },
+        {
+            "registro": "OC_Singapur_Pin",
+            "hop": 6,
+            "ip": "10.200.0.198"
+        },
+        {
+            "registro": "AF_Togo_Amz",
+            "hop": 1,
+            "ip": "192.168.20.1"
+        },
+        {
+            "registro": "AF_Togo_Ig",
+            "hop": 1,
+            "ip": "192.168.20.1"
+        },
+        {
+            "registro": "AF_Togo_Pin",
+            "hop": 1,
+            "ip": "192.168.20.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Amz",
+            "hop": 1,
+            "ip": "10.13.54.49"
+        },
+        {
+            "registro": "AF_SudAfrica_Amz",
+            "hop": 2,
+            "ip": "10.13.54.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Amz",
+            "hop": 3,
+            "ip": "10.13.102.9"
+        },
+        {
+            "registro": "AF_SudAfrica_Amz",
+            "hop": 4,
+            "ip": "10.13.99.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Amz",
+            "hop": 15,
+            "ip": "*"
+        },
+        {
+            "registro": "AF_SudAfrica_Ig",
+            "hop": 1,
+            "ip": "10.13.54.49"
+        },
+        {
+            "registro": "AF_SudAfrica_Ig",
+            "hop": 2,
+            "ip": "10.13.54.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Ig",
+            "hop": 3,
+            "ip": "10.13.102.9"
+        },
+        {
+            "registro": "AF_SudAfrica_Ig",
+            "hop": 4,
+            "ip": "10.13.99.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Pin",
+            "hop": 1,
+            "ip": "10.13.54.49"
+        },
+        {
+            "registro": "AF_SudAfrica_Pin",
+            "hop": 2,
+            "ip": "10.13.54.1"
+        },
+        {
+            "registro": "AF_SudAfrica_Pin",
+            "hop": 3,
+            "ip": "10.13.102.9"
+        },
+        {
+            "registro": "AF_SudAfrica_Pin",
+            "hop": 4,
+            "ip": "10.13.99.1"
+        }
+    ]
+}

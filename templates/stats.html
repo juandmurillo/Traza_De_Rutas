@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/stats.css') }}">
+
+  <script src="{{ url_for('static', filename='routes.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='stats.js') }}" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="icon" href="{{ url_for('static', filename='img/Fav-Icon.png') }}" type="image/x-icon">
+
+
+
+  <title>Estadísticas</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+
+    <div class="left-menu">
+      <nav>
+        <h2>Servidores</h2>
+        <ul>
+          <li id="stats" class="selected"><a href="/stats">Estadísticas</a></li>
+          <li class="menu_button" data-route="/api/Local_Amz"><a href="/">Local</a></li>
+          <li class="menu_button" data-route="/api/NA_Seattle_Amz"><a href="/">NA-Seattle</a></li>
+          <li class="menu_button" data-route="/api/NA_NewYork_Amz"><a href="/">NA-NewYork</a></li>
+          <li class="menu_button" data-route="/api/SA_SaoPaulo_Amz"><a href="/">SA-SaoPaulo</a></li>
+          <li class="menu_button" data-route="/api/SA_BuenosAires_Amz"><a href="/">SA-BuenosAires</a></li>
+          <li class="menu_button" data-route="/api/EU_Amsterdam_Amz"><a href="/">EU-Amsterdam</a></li>
+          <li class="menu_button" data-route="/api/EU_Hamburgo_Amz"><a href="/">EU-Hamburgo</a></li>
+          <li class="menu_button" data-route="/api/OC_Sidney_Amz"><a href="/">OC-Sidney</a></li>
+          <li class="menu_button" data-route="/api/OC_Singapur_Amz"><a href="/">OC-Singapur</a></li>
+          <li class="menu_button" data-route="/api/AF_Togo_Amz"><a href="/">AF-Togo</a></li>
+          <li class="menu_button" data-route="/api/AF_SudAfrica_Amz"><a href="/">AF-SAfrica</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="main-content" class="main-content">
+
+      <div class="grid-container">
+        <div class="grid-item">
+          <h1>Estadísticas Generales</h1>
+        </div>
+        <div class="grid-item">
+          <div class="card" id="maxSaltos"></div>
+        </div>
+        <div class="grid-item">
+          <div class="card" id="maxTiempoRespuesta"></div>
+        </div>
+        <div class="grid-item">
+          <div class="card" id="minSaltos"></div>
+        </div>
+        <div class="grid-item">
+          <div class="card" id="minTiempoRespuesta"></div>
+        </div>
+        <div class="grid-item">
+          <h2>Puntos muertos por registro</h2>
+          <canvas id="scatterChart"></canvas>
+        </div>
+        <div class="grid-item">
+          <h2>Puntos muertos Continente</h2>
+          <canvas id="doughnutChart"></canvas>
+        </div>
+        <div class="grid-item">
+          <h2>Saltos por continentes</h2>
+          <canvas id="barChartSaltos"></canvas>
+        </div>
+        <div class="grid-item">
+          <h2>Tiempo promedio de respuesta por continente</h2>
+          <canvas id="barChartTiempo"></canvas>
+        </div>
+        <div class="grid-item btn-export">
+          <button id="exportPdf">Exportar Informe PDF</button>
+        </div>
+      </div>
+      
+
+
+</body>
+
+</html>
